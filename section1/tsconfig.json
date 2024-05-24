@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext", // or CommonJS
+    "outDir": "dist",
+    "strict": true, // false 
+    "moduleDetection": "force"
+   },
+   "ts-node": {
+    "esm": true
+   },
+   "inlude": ["str"]
+}
